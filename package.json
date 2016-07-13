@@ -1,5 +1,5 @@
 {
-  "name": "rentspree-auth-service",
+  "name": "boilerplate-service",
   "version": "1.0.0",
   "description": "",
   "main": ".bin/server.js",
