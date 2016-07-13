@@ -1,3 +1,2 @@
-
-var mode = process.env.NODE_ENV || "development";
+require('source-map-support').install();
 require('../.build/src');
