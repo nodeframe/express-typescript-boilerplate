@@ -45,8 +45,8 @@ gulp.task('watch-and-start:ts',['build-and-start:ts'],()=>
 gulp.task('build-and-start:ts',['build:ts'],()=>{
   if(node) node.kill();
   node = spawn('node',['.bin/server.js'],{stdio:'inherit'});
-  node.on('error',()=>{
-    console.log('error detected');
+  node.on('success',()=>{
+    console.log('success');
   });
 });
 
