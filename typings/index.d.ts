@@ -4,6 +4,7 @@
 /// <reference path="globals/mime/index.d.ts" />
 /// <reference path="globals/mocha/index.d.ts" />
 /// <reference path="globals/node/index.d.ts" />
+/// <reference path="globals/seneca/index.d.ts" />
 /// <reference path="globals/serve-static/index.d.ts" />
 /// <reference path="globals/superagent/index.d.ts" />
 /// <reference path="globals/supertest-as-promised/index.d.ts" />
